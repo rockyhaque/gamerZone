@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Shared Styles  */
+
+/* -----------Header Section----------  */
+
+header{
+    padding: 0px 240px;
+}
+
+
+/* Navbar Starts */
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 45px 0px;
+}
+
+.nav-logo-title{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.nav-logo-title h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.gamer-g{
+    color: rgba(255, 66, 165, 1);
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+.nav-logo-title img{
+    width: 85px;
+    height: 40px;
+}
+
+.nav-items{
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;  
+}
+
+.nav-items ul{
+    align-items: center;
+}
+
+.nav-items ul li{
+    margin-left: 32px;
+}
+
+.nav-items ul li a{
+    color: #3C354F;
+}
+
+
+.nav-social-container{
+    display: flex;
+    gap: 22px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 16px 24px;
+    align-items: center;
+}
+
+.nav-social-container img{
+    width: 25px;
+    height: 22px;
+}
+
