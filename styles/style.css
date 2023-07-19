@@ -114,15 +114,15 @@ nav li a{
 }
 
 /* ------------Main Section Starts---------  */
-main{
+/* main{
     padding: 0px 240px;
-}
+} */
 
 /* Banner section starts */
 
 .primary-banner-container{
     display: flex;
-    padding: 45px 0px;
+    padding: 45px 240px;
     justify-content: space-around;
 
 }
@@ -190,6 +190,8 @@ main{
     text-align: end;
     margin: 0px 90px;
     /* Right Side Align */
+    padding: 0px 240px;
+
 }
 
 .we-are-gamer img{
@@ -227,9 +229,12 @@ main{
 }
 
 /* Funny Videos Section  */
+.funny-video-container{
+    padding: 0px 240px;
 
+}
 
-.funny-videos-title{
+.secondary-text{
     color: #0B0223;
     font-size: 48px;
     font-weight: 700;
@@ -259,3 +264,113 @@ main{
     height: auto;
 }
 
+
+/* Instant play Section  */
+
+ /* -------play Section starts ------ */
+
+/* .instant-play-container{
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 140px;
+    padding-left: 50px;
+}
+
+.instant-play-info{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.instant-play-img{
+    margin-left: 100px;
+}
+
+.super-girl{
+    position: relative;
+    top: 80px;
+    right: 710px;
+} */
+
+
+/* --------- Play section ends ---------- */
+
+
+/* Career section  */
+
+.career-container{
+    display: flex;
+    color: #FFF;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding: 100px 240px;
+    /* width: 100%; */
+    /* height: 821px; */
+    /* padding: 0px 240px; */
+    justify-content: space-around;
+
+    margin: 0;
+
+}
+
+.career-info h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.career-info p{
+    margin-right: 30px;
+    margin-top: 24px;
+}
+
+.left-right-career-info{
+    display: flex;
+    gap: 90px;
+    line-height: 6px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.left-info{
+    text-align: start;
+}
+
+.right-info{
+    text-align: end;
+}
+
+.career-img img{
+    width: 400px;
+    height: 350px;
+}
+
+.career-btn{
+    border-radius: 48px;
+    background: #FFF;
+    padding: 21px 40px;
+    margin-top: 40px;
+    border: 0;
+    color: rgba(255, 66, 165, 1);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* Category Section  */
+
+.category-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* justify-content: space-around; */
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+    gap: 50px;
+}
+
+.highlight-box{
+    display: flex;
+    gap: 16px;
+}
