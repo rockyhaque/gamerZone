@@ -1,6 +1,5 @@
 @media screen and (max-width: 576px) {
 
-
     nav,
     nav ul
     {
@@ -60,21 +59,6 @@
         padding: 0;
     }
 
-    /* .funny-video-container h2,
-    .funny-video-container p{
-        width: 100%;
-        margin: auto;
-
-    } */
-
-    /* .box-container img{
-        width: 80%;
-        height: auto;
-        margin: auto;
-        margin: 0;
-        padding: 0;
-        gap: 0;
-    } */
 
     .funny-video-container h2{
         margin-top: 100px;
@@ -86,30 +70,11 @@
         height: auto;
         padding: 35px 10px;
         margin-top: 30px;
-
     }
 
     .box-container p{
         margin-top: 0px;
     }
-
-    /* -------play Section starts ------ */
-
-    /* .instant-play-container{
-        flex-direction: column;
-    }
-
-    .horse-rider{
-        width: 100%;
-        height: auto;
-    }
-
-    .super-girl{
-        width: 100%;
-        height: auto;
-    } */
-    /*--------- Play section ends ---------- */
-
 
     /* Career Section  */
 
@@ -120,7 +85,6 @@
         margin: auto;
         padding-right: 0;
         text-align: center;
-        
     }
 
     .left-right-career-info{
@@ -135,12 +99,9 @@
         text-align: center;
     } 
 
-    
-
     .career-img img{
         width: 80%;
         margin: auto;
-        /* margin-left: 30px; */
 
     }
 
@@ -152,12 +113,95 @@
     }
 
     
-    
 }
 
 
 @media screen and (min-width: 576px) and (max-width: 960px) {
     
+    .we-are-gamer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .we-are-gamer h6{
+        margin-top: 80px;
+    }
+
+    nav,
+    nav ul
+    {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    nav ul li{
+        margin-top: 35px;
+    }
     
+    .primary-banner-container{
+        flex-direction: column-reverse;
+    }
+
+    .primary-banner-info{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .primary-banner-info h2{
+        margin-top: 155px;
+    }
+
+    nav,
+    .primary-banner-container,
+    .we-are-gamer,
+    .funny-video-container,
+    .career-container
+    main{
+        margin: auto;
+        padding: 0;
+    }
+
+    .left-right-career-info{
+        flex-direction: column;
+    }
+
+     .left-info{
+        text-align: center;
+    }
+
+    .right-info{
+        text-align: center;
+    } 
+
+    .career-img img{
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .category-container{
+        grid-template-columns: repeat(2, 1fr);
+        width: 50%;
+        margin: 0;
+
+    }
+
+    
+    .funny-video-container h2{
+        margin-top: 100px;
+    
+    }
+
+    .box-container img{
+        width: 100%;
+        height: auto;
+        padding: 35px 10px;
+        margin-top: 30px;
+    }
+
+    .box-container p{
+        margin-top: 0px;
+    }
    
 }
