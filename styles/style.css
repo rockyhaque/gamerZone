@@ -122,6 +122,7 @@ nav li a{
 
 .nav-social-container:hover{
     box-shadow: 0px 15px 20px rgba(207, 86, 187, 0.4);
+    cursor: pointer;
 }
 
 .nav-social-container img{
@@ -284,13 +285,15 @@ nav li a{
 .box-container img{
     width: 100%;
     height: auto;
+    opacity: 1;
 }
 
-/* .box-container img:hover{
-    background-color: #202020;
-    opacity: 1;
-
-} */
+.box-container img:hover{
+    position: relative;
+    opacity: 0.7;
+    top: 1%;
+    left: 1%;
+}
 
 
 /* Instant play Section  */
