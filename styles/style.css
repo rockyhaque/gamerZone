@@ -226,3 +226,36 @@ main{
     font-weight: 700;
 }
 
+/* Funny Videos Section  */
+
+
+.funny-videos-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.funny-video-container h2{
+    color: #0B0223;
+    text-align: center;
+
+}
+
+.funny-video-container p{
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.box-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    margin-top: 48px;
+}
+
+.box-container img{
+    width: 100%;
+    height: auto;
+}
+
