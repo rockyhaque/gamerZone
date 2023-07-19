@@ -18,6 +18,15 @@
     border: 0;
 }
 
+.primary-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
 /* -----------Header Section----------  */
 
 header{
@@ -34,7 +43,6 @@ nav{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     padding: 45px 0px;
-    border: 1px solid red;
 
 
 }
@@ -116,7 +124,6 @@ main{
     display: flex;
     padding: 45px 0px;
     justify-content: space-around;
-    border: 1px solid red;
 
 }
 
@@ -147,7 +154,8 @@ main{
 
 .play, 
 .download,
-.support{
+.support
+{
     display: flex;
     gap: 12px;
     margin-top: 12px;
@@ -169,6 +177,52 @@ main{
 
 }
 
-.primary-banner-img{
-    border: 1px solid red;
+.primary-banner-img img{
+    width: 100%;
+    height: auto;
+
 }
+
+
+/* We are gamer Section  */
+.we-are-gamer{
+    display: flex;
+    text-align: end;
+    margin: 0px 90px;
+    /* Right Side Align */
+}
+
+.we-are-gamer img{
+    width: 100%;
+    height: auto;
+}
+
+.we-are-gamer h2{
+    margin-top: 80px;
+}
+
+.we-are-gamer p{
+    margin-top: 24px;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.know-more-btn{
+    margin-top: 32px;
+}
+
+.we-are-gamer h6{
+    margin-top: 25px;
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.we-are-gamer h3{
+    margin-top: 15px;
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 700;
+}
+

@@ -1,0 +1,62 @@
+@media screen and (max-width: 576px) {
+
+
+    nav,
+    nav ul
+    {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    nav ul li{
+        margin-top: 35px;
+    }
+    
+    .primary-banner-container{
+        flex-direction: column-reverse;
+    }
+
+    .primary-banner-info{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .primary-banner-info h2{
+        margin-top: 155px;
+    }
+
+    header,
+    main{
+        margin: auto;
+        padding: 0;
+    }
+
+    .play, 
+    .download,
+    .support{
+        width: 80%;
+        margin: auto;
+    }
+
+    .we-are-gamer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .we-are-gamer h6{
+        margin-top: 80px;
+    }
+    
+
+
+  
+    
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    
+    
+   
+}
