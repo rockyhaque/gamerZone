@@ -372,5 +372,80 @@ nav li a{
 
 .highlight-box{
     display: flex;
+    align-items: center;
     gap: 16px;
+}
+
+.highlight-box p{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* Foooter Section  */
+
+.footer-container{
+    width: auto;
+    height: 650px;
+    background: #0B0223;
+    text-align: center;
+}
+
+.footer-logo-title{
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.gamer-g-left{
+    color: #FFF;
+}
+
+.at-a-glance{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 60px;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.at-a-glance h6{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.terms-condition{
+    color: rgba(255, 255, 255, 0.60);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+
+    
+}
+
+.terms-condition h6{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+.copyright{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 30px;
+
+}
+
+.footer-icon img{
+    width: 40px;
+    height: 40px;
+    padding-top: 40px;
+    margin-right: 40px;
 }
