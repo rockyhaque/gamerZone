@@ -430,7 +430,6 @@ nav li a{
 
 .footer-container{
     width: auto;
-    height: 600px;
     background: #0B0223;
     text-align: center;
 }
@@ -488,6 +487,7 @@ nav li a{
     font-size: 16px;
     font-weight: 500;
     padding-top: 30px;
+    padding-bottom: 120px;
 
 }
 
@@ -498,24 +498,6 @@ nav li a{
     margin-right: 40px;
 }
 
-/* .footer-icon img:hover{
-    width: 42px;
-    height: 42px;
-    box-shadow: 0px 15px 20px rgba(24, 26, 57, 0.4);
 
-} */
-
-/* .twitter:hover,
-.facebook:hover,
-.youtube:hover,
-.linkedin:hover,
-.instagram:hover,
-.apple:hover
-{
-    width: 42px;
-    height: 42px;
-    box-shadow: 0px 15px 20px rgba(24, 26, 57, 0.4);
-
-} */
 
 

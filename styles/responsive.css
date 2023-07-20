@@ -112,6 +112,14 @@
 
     }
 
+    .footer-container,
+    .at-a-glance,
+    .terms-condition
+    {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
     
 }
 
