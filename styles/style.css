@@ -254,6 +254,7 @@ nav li a{
 /* Funny Videos Section  */
 .funny-video-container{
     padding: 0px 240px;
+    margin-top: 120px;
 
 }
 
@@ -400,9 +401,7 @@ nav li a{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    /* justify-content: space-around; */
     width: 80%;
-    /* width: auto; */
     margin: auto;
     padding: 200px 0px;
     gap: 50px;
