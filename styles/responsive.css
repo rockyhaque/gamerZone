@@ -105,11 +105,15 @@
 
     }
 
-    .category-container{
-        grid-template-columns: repeat(2, 1fr);
-        width: 50%;
-        margin: 0;
+    
 
+    .category-container{
+        grid-template-columns: repeat(3, 1fr);
+        border: 1px solid #ccc;
+    }
+
+    .highlight-box{
+        gap: 10;
     }
 
     .footer-container,
@@ -210,6 +214,16 @@
 
     .box-container p{
         margin-top: 0px;
+    }
+
+    
+    .category-container{
+        grid-template-columns: repeat(3, 1fr);
+        border: 1px solid #ccc;
+    }
+
+    .highlight-box{
+        gap: 10;
     }
    
 }

@@ -402,6 +402,7 @@ nav li a{
     grid-template-rows: repeat(2, 1fr);
     /* justify-content: space-around; */
     width: 80%;
+    /* width: auto; */
     margin: auto;
     padding: 200px 0px;
     gap: 50px;
