@@ -17,7 +17,7 @@ Live Link -> https://rockyhaque.github.io/gamerZone/
 
 ## Technologies Used
 
-- HTML5, CSS3, and JavaScript for front-end development.
+- HTML5 and CSS3 for front-end development.
 - Git for version control.
 
 Happy gaming!
